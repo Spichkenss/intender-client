@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
-  component: IndexComponent,
+  component: IndexRouteComponent,
 });
 
-function IndexComponent() {
+function IndexRouteComponent() {
   return (
     <div>start page</div>
   );

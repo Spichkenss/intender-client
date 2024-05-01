@@ -5,7 +5,6 @@
   "plugins": ["react-refresh", "@typescript-eslint"],
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:react-hooks/recommended",
     "plugin:react/recommended",
@@ -23,7 +22,10 @@
     "import/no-extraneous-dependencies": "off",
     "no-use-before-define": "off",
     "no-shadow": "off",
+    "react/function-component-definition": "off",
+    "arrow-body-style": "off",
     "react/jsx-props-no-spreading": "off",
+    "semi": "warn",
     "no-unused-vars": [
       "error",
       {
