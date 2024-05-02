@@ -25,6 +25,7 @@
     "react/function-component-definition": "off",
     "arrow-body-style": "off",
     "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
     "semi": "warn",
     "no-unused-vars": [
       "error",
@@ -33,10 +34,7 @@
         "argsIgnorePattern": "^_"
       }
     ],
-    "react-refresh/only-export-components": [
-      "warn",
-      { "allowConstantExport": true }
-    ],
+    "react-refresh/only-export-components": "off",
     "quotes": ["error", "double"],
     "indent": ["error", 2]
   }
